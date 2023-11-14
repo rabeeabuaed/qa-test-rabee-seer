@@ -1,0 +1,31 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Parallel test suite" thread-count="4" parallel="tests">
+	<test name="CrossBrowserAndMultiThreadTest">
+		<parameter name="browser" value="chrome" />
+		<classes>
+			<class name="Test.CrossBrowserTest" />
+			<class name="Test.TestDefineElemnts" />
+		</classes>
+	</test>
+	<test name="CrossBrowserAndMultiThreadTest-fireox">
+		<parameter name="browser" value="firefox" />
+		<classes>
+			<class name="Test.CrossBrowserTest" />
+			<class name="Test.TestDefineElemnts" />
+		</classes>
+	</test>
+	<test name="CrossBrowserAndMultiThreadTest_edge">
+		<parameter name="browser" value="Edge" />
+		<classes>
+			<class name="Test.CrossBrowserTest" />
+			<class name="Test.TestDefineElemnts" />
+		</classes>
+	</test>
+	<test name="CrossBrowserAndMultiThreadTest_opera">
+		<parameter name="browser" value="opera" />
+		<classes>
+			<class name="Test.CrossBrowserTest" />
+			<class name="Test.TestDefineElemnts" />
+		</classes>
+	</test>
+</suite>

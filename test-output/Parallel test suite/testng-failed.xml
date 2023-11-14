@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="4" parallel="tests" name="Failed suite [Parallel test suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="4" parallel="tests" name="CrossBrowserAndMultiThreadTest_edge(failed)">
+    <parameter name="browser" value="Edge"/>
+    <classes>
+      <class name="Test.CrossBrowserTest">
+        <methods>
+          <include name="testApplication"/>
+        </methods>
+      </class> <!-- Test.CrossBrowserTest -->
+    </classes>
+  </test> <!-- CrossBrowserAndMultiThreadTest_edge(failed) -->
+</suite> <!-- Failed suite [Parallel test suite] -->

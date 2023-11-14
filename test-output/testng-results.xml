@@ -1,0 +1,345 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="12" passed="12" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-11-14T11:37:21 GST" name="Parallel test suite" finished-at="2023-11-14T11:37:43 GST" duration-ms="22029">
+    <groups>
+    </groups>
+    <test started-at="2023-11-14T11:37:21 GST" name="CrossBrowserAndMultiThreadTest" finished-at="2023-11-14T11:37:35 GST" duration-ms="14678">
+      <class name="Test.CrossBrowserTest">
+        <test-method signature="testApplication(java.lang.String)[pri:0, instance:Test.CrossBrowserTest@3835c46]" started-at="2023-11-14T11:37:22 GST" name="testApplication" finished-at="2023-11-14T11:37:24 GST" duration-ms="2157" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testApplication -->
+        <test-method signature="testApplication(java.lang.String)[pri:0, instance:Test.CrossBrowserTest@3835c46]" started-at="2023-11-14T11:37:22 GST" name="testApplication" finished-at="2023-11-14T11:37:24 GST" duration-ms="2218" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testApplication -->
+      </class> <!-- Test.CrossBrowserTest -->
+      <class name="Test.TestDefineElemnts">
+        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:Test.TestDefineElemnts@323b36e0]" started-at="2023-11-14T11:37:21 GST" name="launchBrowser" finished-at="2023-11-14T11:37:22 GST" duration-ms="866" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="registerNewUser(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:Test.TestDefineElemnts@323b36e0]" started-at="2023-11-14T11:37:24 GST" name="registerNewUser" data-provider="userDataProvider" finished-at="2023-11-14T11:37:28 GST" duration-ms="4481" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[rabee]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[971581783536]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[rabee@gmail.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Guam]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[damascus]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[rabeeabuaed]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Rabe_1992]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registerNewUser -->
+        <test-method is-config="true" signature="CloseBrowser()[pri:0, instance:Test.TestDefineElemnts@323b36e0]" started-at="2023-11-14T11:37:28 GST" name="CloseBrowser" finished-at="2023-11-14T11:37:35 GST" duration-ms="7091" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseBrowser -->
+      </class> <!-- Test.TestDefineElemnts -->
+    </test> <!-- CrossBrowserAndMultiThreadTest -->
+    <test started-at="2023-11-14T11:37:21 GST" name="CrossBrowserAndMultiThreadTest_opera" finished-at="2023-11-14T11:37:36 GST" duration-ms="15110">
+      <class name="Test.CrossBrowserTest">
+        <test-method signature="testApplication(java.lang.String)[pri:0, instance:Test.CrossBrowserTest@1a482e36]" started-at="2023-11-14T11:37:22 GST" name="testApplication" finished-at="2023-11-14T11:37:25 GST" duration-ms="2612" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[opera]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testApplication -->
+        <test-method signature="testApplication(java.lang.String)[pri:0, instance:Test.CrossBrowserTest@1a482e36]" started-at="2023-11-14T11:37:22 GST" name="testApplication" finished-at="2023-11-14T11:37:25 GST" duration-ms="2535" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[opera]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testApplication -->
+      </class> <!-- Test.CrossBrowserTest -->
+      <class name="Test.TestDefineElemnts">
+        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:Test.TestDefineElemnts@72967906]" started-at="2023-11-14T11:37:21 GST" name="launchBrowser" finished-at="2023-11-14T11:37:22 GST" duration-ms="1467" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[opera]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="registerNewUser(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:Test.TestDefineElemnts@72967906]" started-at="2023-11-14T11:37:25 GST" name="registerNewUser" data-provider="userDataProvider" finished-at="2023-11-14T11:37:29 GST" duration-ms="3843" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[rabee]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[971581783536]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[rabee@gmail.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Guam]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[damascus]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[rabeeabuaed]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Rabe_1992]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registerNewUser -->
+        <test-method is-config="true" signature="CloseBrowser()[pri:0, instance:Test.TestDefineElemnts@72967906]" started-at="2023-11-14T11:37:29 GST" name="CloseBrowser" finished-at="2023-11-14T11:37:36 GST" duration-ms="7182" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseBrowser -->
+      </class> <!-- Test.TestDefineElemnts -->
+    </test> <!-- CrossBrowserAndMultiThreadTest_opera -->
+    <test started-at="2023-11-14T11:37:21 GST" name="CrossBrowserAndMultiThreadTest_edge" finished-at="2023-11-14T11:37:37 GST" duration-ms="16658">
+      <class name="Test.CrossBrowserTest">
+        <test-method signature="testApplication(java.lang.String)[pri:0, instance:Test.CrossBrowserTest@6069db50]" started-at="2023-11-14T11:37:22 GST" name="testApplication" finished-at="2023-11-14T11:37:26 GST" duration-ms="4548" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testApplication -->
+        <test-method signature="testApplication(java.lang.String)[pri:0, instance:Test.CrossBrowserTest@6069db50]" started-at="2023-11-14T11:37:22 GST" name="testApplication" finished-at="2023-11-14T11:37:27 GST" duration-ms="5345" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testApplication -->
+      </class> <!-- Test.CrossBrowserTest -->
+      <class name="Test.TestDefineElemnts">
+        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:Test.TestDefineElemnts@4efbca5a]" started-at="2023-11-14T11:37:21 GST" name="launchBrowser" finished-at="2023-11-14T11:37:22 GST" duration-ms="933" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="registerNewUser(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:Test.TestDefineElemnts@4efbca5a]" started-at="2023-11-14T11:37:27 GST" name="registerNewUser" data-provider="userDataProvider" finished-at="2023-11-14T11:37:30 GST" duration-ms="3155" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[rabee]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[971581783536]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[rabee@gmail.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Guam]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[damascus]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[rabeeabuaed]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Rabe_1992]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registerNewUser -->
+        <test-method is-config="true" signature="CloseBrowser()[pri:0, instance:Test.TestDefineElemnts@4efbca5a]" started-at="2023-11-14T11:37:30 GST" name="CloseBrowser" finished-at="2023-11-14T11:37:37 GST" duration-ms="7218" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseBrowser -->
+      </class> <!-- Test.TestDefineElemnts -->
+    </test> <!-- CrossBrowserAndMultiThreadTest_edge -->
+    <test started-at="2023-11-14T11:37:21 GST" name="CrossBrowserAndMultiThreadTest-fireox" finished-at="2023-11-14T11:37:43 GST" duration-ms="22029">
+      <class name="Test.CrossBrowserTest">
+        <test-method signature="testApplication(java.lang.String)[pri:0, instance:Test.CrossBrowserTest@6adbc9d]" started-at="2023-11-14T11:37:25 GST" name="testApplication" finished-at="2023-11-14T11:37:30 GST" duration-ms="5046" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testApplication -->
+        <test-method signature="testApplication(java.lang.String)[pri:0, instance:Test.CrossBrowserTest@6adbc9d]" started-at="2023-11-14T11:37:25 GST" name="testApplication" finished-at="2023-11-14T11:37:30 GST" duration-ms="5107" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testApplication -->
+      </class> <!-- Test.CrossBrowserTest -->
+      <class name="Test.TestDefineElemnts">
+        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:Test.TestDefineElemnts@4550bb58]" started-at="2023-11-14T11:37:21 GST" name="launchBrowser" finished-at="2023-11-14T11:37:25 GST" duration-ms="4464" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="registerNewUser(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:Test.TestDefineElemnts@4550bb58]" started-at="2023-11-14T11:37:30 GST" name="registerNewUser" data-provider="userDataProvider" finished-at="2023-11-14T11:37:35 GST" duration-ms="4710" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[rabee]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[971581783536]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[rabee@gmail.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Guam]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[damascus]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[rabeeabuaed]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Rabe_1992]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registerNewUser -->
+        <test-method is-config="true" signature="CloseBrowser()[pri:0, instance:Test.TestDefineElemnts@4550bb58]" started-at="2023-11-14T11:37:35 GST" name="CloseBrowser" finished-at="2023-11-14T11:37:43 GST" duration-ms="7743" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseBrowser -->
+      </class> <!-- Test.TestDefineElemnts -->
+    </test> <!-- CrossBrowserAndMultiThreadTest-fireox -->
+  </suite> <!-- Parallel test suite -->
+</testng-results>
